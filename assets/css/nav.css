@@ -1,0 +1,104 @@
+.parent-nav-container{
+    width: 100%;
+    height: 50px;
+    background-color: #4d636f;
+    font-size: 20px;
+    /* position: fixed;
+    top: 0.1px;
+    z-index: 3; */
+}
+
+.logo-tag{
+    color: #fff;
+    line-height: 50px;
+    float: left;
+    padding: 0px 24px;
+    text-decoration: none;
+}
+
+.logo-tag:hover{
+    background-color: #cecbcb;
+}
+
+.img-tag{
+    float: right;
+    line-height: 50px;
+    padding: 0px 20px;
+}
+.img-tag:hover{
+    background-color: #cecbcb;
+}
+
+
+.parent-nav-container ul{
+    float: left;
+}
+.parent-nav-container ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    z-index: 10;
+}
+.parent-nav-container ul li a{
+    display: block;
+    color: #fff;
+    padding: 12px 18px;
+    
+}
+
+.parent-nav-container ul li a:hover{
+    background-color: #cecbcb;
+    
+}
+
+.parent-nav-container ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white; 
+    box-shadow: 1px 2px 3px;
+    border-radius: 0px 0px 3px 3px;
+    padding: 8px;  
+    font-size: 18px;
+    
+    
+}
+
+.parent-nav-container ul li:hover ul{
+    display: block;
+     
+}
+
+.parent-nav-container ul li ul li{
+    width: 300px;
+    
+    
+}
+
+.parent-nav-container ul li ul li a{
+    padding: 8px 4px; 
+    color: black;
+    text-decoration: none;
+}
+
+.parent-nav-container ul li ul li a:hover{
+    padding: 8px 4px; 
+    background-color: white;
+}
+
+
+/* notification sign */
+
+#bell-sign{
+    position: relative;
+}
+
+.notification-badge {
+    position: absolute;
+    top: 6px; 
+    right: 1px; 
+    background-color: #1c8a1c;
+    color: white;
+    border-radius: 30px;
+    padding: 0px 8px;
+    font-size: 12px;
+  }
